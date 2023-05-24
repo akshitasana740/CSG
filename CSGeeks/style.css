@@ -1,0 +1,100 @@
+*{
+    font-family:AbrilFatface;
+    overflow-x: hidden;
+}
+.navbar-custom {
+    background-color:#2E4F4F;
+}
+.navbar-custom a{
+    color: #CBE4DE;
+    font-size: 20px;
+}
+.navbar-custom button{
+    background-color: #0E8388;
+    color:white;
+}
+/* HOME PAGE CSS */
+.home-custom{
+    height: 24rem;
+    opacity: 0.85;
+}
+.home-custom img{
+    height: 24rem;width: 100%;
+    z-index: -1;
+}
+.slide1-para h1{
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.slide1-para p{
+    font-size: 30px;
+    /* padding-bottom: 2rem; */
+}
+.slide1-para button{
+    background-color:#0E8388;
+    color: #CBE4DE;
+}
+.slide1-para button:hover{
+    background-color: white;
+}
+.slide2-para{
+    color: rgb(255, 255, 255);
+}
+.slide2-para h2{
+    font-size:4rem;
+    padding-bottom: 2rem;
+}
+.slide2-para p{
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+.slide2-para button{
+    background-color:#0E8388;
+    color: #CBE4DE;
+}
+.slide2-para button:hover{
+    background-color: white;
+}
+.slide3-para h2{
+    font-size:4rem;
+    padding-bottom: 2rem;
+}
+.slide3-para p{
+    font-size: 20px;
+    padding-bottom: 3rem;
+}
+/* HACKATHONS CSS */
+.hackathons-custom text{
+    font-size: 30px;
+}
+.hackathons-custom button{
+    border: 2px solid #0E8388;
+    color:2E4F4F;
+}
+.hackathons-custom button:hover{
+    background-color: #0E8388;
+    color: white;
+}
+/* COURSES CSS */
+.headings{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:#2E4F4F;
+    color:#CBE4DE;
+}
+.course-images{
+    opacity: 0.6;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.contact{
+    color: #ffffff;
+    max-width:1252px ;
+    background: rgba(14, 131, 136,50%);
+}
